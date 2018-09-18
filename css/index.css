@@ -1,0 +1,22 @@
+body{
+  background-color:white;
+  color:white;
+}
+
+#funbus {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  background: url(https://images.vexels.com/media/users/3/134420/isolated/preview/cb5d873d48e56e33a6971ef927cf430d-school-bus-illustration-by-vexels.png)no-repeat;
+}
+
+body {
+	background: #F0FCFF url('http://www.webdesign.org/img_articles/9525/car_08.jpg') repeat-x 100% 0px;
+	background-size: 600px;
+  -webkit-animation: road-move 5s linear forwards;
+}
+
+@-webkit-keyframes road-move {
+  0% { background-position: 100% 0px; }
+  100% { background-position: -1050% 0px; }
+}
